@@ -66,7 +66,7 @@ function animate() {
     ball.update()
 
     objects.forEach(object => {
-        object.update();
+        object.update()
     });
 }
 
